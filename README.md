@@ -1,4 +1,4 @@
-Weather Microservice (CLOOPS)
+## Weather Microservice (CLOOPS)
 This project implements a weather microservice using the cloops.microservices SDK.
 The service integrates with the public wttr.in API to fetch weather information for a given city.
 Features
@@ -7,11 +7,13 @@ Features
 - Clean separation of controller and service layers
 - Graceful error handling
 - NATS-based request–reply architecture
-Prerequisites
+  
+## Prerequisites
 - .NET SDK
 - NATS Server
 - NATS CLI
-Running the Service
+  
+## Running the Service
 1. Start the NATS server:
 nats-server
 2. Run the service:
